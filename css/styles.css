@@ -1,0 +1,57 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.topo{
+    background-color: rgb(76, 80, 83);
+}
+.titulo-principal{
+    font-size: "Open Sans Condensed", "Arial", sans-serif;
+    text-align: center;
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(94, 96, 99);
+    width: 100%;
+    height: 100vh;
+
+    
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url("https://wgpapeldeparede.com.br/wp-content/uploads/2020/12/4144-300x300-1.jpg");
+    background-color: rgba(171, 160, 236, 0.842);
+    width: 25%;
+    height: 70vh;
+    border-radius: 20px;
+}
+
+#display{
+width: 80%;
+height: 12vh;
+margin-top: 5vh;
+margin-bottom: 2vh;
+font-size: 500%;
+
+}
+
+.btn{
+    width: 63px;
+    height: 63px;
+    margin: 5px;
+    background-color: rgb(166, 163, 212);
+  border-radius: 20px;
+  background-image: url("https://thumbs.dreamstime.com/b/textura-de-madeira-cinza-escuro-placa-corte-riscada-naughty-116938438.jpg");
+  font-size: 200%;
+  border-radius: 20px;
+} 
+.btn:hover{
+background-color: rgb(116, 115, 150);
+box-shadow: #d3c6a1;
+}
